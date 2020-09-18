@@ -1,0 +1,18 @@
+{
+  "name": "dd-test",
+  "scripts": {
+    "start-working": "ts-node -r tsconfig-paths/register working.ts",
+    "start-not-working": "ts-node -r tsconfig-paths/register not_working.ts"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "dependencies": {
+    "nodemon": "1.19.4",
+    "ts-node": "8.4.1",
+    "tsconfig-paths": "3.9.0",
+    "typescript": "3.9.3",
+    "apollo-server-express": "2.15.1",
+    "dd-trace": "0.26.0"
+  }
+}

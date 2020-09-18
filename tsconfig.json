@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es5",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "sourceMap": true,
+    "outDir": "dist",
+    "lib": ["esnext"],
+    "noUnusedParameters": false /* Report errors on unused parameters. */,
+    "baseUrl": "./" /* Base directory to resolve non-absolute module names. */,
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "noErrorTruncation": true
+  }
+}
